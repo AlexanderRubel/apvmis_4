@@ -1,0 +1,39 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port sysclk_n -pg 1 -y 200 -defaultsOSRD
+preplace port sysclk_p -pg 1 -y 390 -defaultsOSRD
+preplace portBus dipswitch -pg 1 -y 20 -defaultsOSRD
+preplace portBus ledsboard -pg 1 -y 460 -defaultsOSRD
+preplace portBus ledsmain -pg 1 -y 440 -defaultsOSRD
+preplace portBus pushbuttons -pg 1 -y 300 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 2 -y 80 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 3 -y 410 -defaultsOSRD
+preplace inst xlconstant_2 -pg 1 -lvl 3 -y 510 -defaultsOSRD
+preplace inst hier_0 -pg 1 -lvl 1 -y 300 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 3 -y 70 -defaultsOSRD
+preplace inst divider_0 -pg 1 -lvl 3 -y 220 -defaultsOSRD
+preplace inst top_0 -pg 1 -lvl 4 -y 410 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 2 -y 210 -defaultsOSRD
+preplace netloc xlconstant_1_dout 1 3 1 NJ
+preplace netloc top_0_Q_ls_o 1 4 1 NJ
+preplace netloc xlconstant_2_dout 1 3 1 720J
+preplace netloc sysclk_n_1 1 0 2 NJ 200 NJ
+preplace netloc top_0_Q_ms_o 1 4 1 NJ
+preplace netloc dipswitch_1 1 0 3 NJ 20 NJ 20 530J
+preplace netloc hier_0_button_0 1 1 3 NJ 340 NJ 340 720
+preplace netloc pushbuttons_1 1 0 1 NJ
+preplace netloc xlconcat_0_dout 1 3 1 740
+preplace netloc xlconstant_0_dout 1 2 1 NJ
+preplace netloc hier_0_button_1 1 1 3 NJ 320 NJ 320 750
+preplace netloc clk_wiz_1_clk_out1 1 2 1 N
+preplace netloc hier_0_button_2 1 1 3 290J 330 NJ 330 730
+preplace netloc hier_0_button_3 1 1 3 310 360 530 570 760J
+preplace netloc sysclk_p_1 1 0 2 NJ 390 280J
+preplace netloc divider_0_div_clk_o 1 3 1 760
+preplace netloc hier_0_button_4 1 1 3 300J 350 NJ 350 710
+levelinfo -pg 1 0 150 420 620 870 1000 -top 0 -bot 580
+",
+}
+
