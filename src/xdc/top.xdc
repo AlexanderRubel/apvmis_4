@@ -19,14 +19,19 @@ set_property PACKAGE_PIN H26 [get_ports ledsboard[3]]
 set_property IOSTANDARD LVCMOS25 [get_ports ledsboard[3]]
 
 # Pushbuttons
-set_property PACKAGE_PIN P6 [get_ports pushbuttons[0]]
+#north
+set_property PACKAGE_PIN P6 [get_ports pushbuttons[0]] 
 set_property IOSTANDARD LVCMOS15 [get_ports pushbuttons[0]]
+#west
 set_property PACKAGE_PIN R5 [get_ports pushbuttons[1]]
 set_property IOSTANDARD SSTL15 [get_ports pushbuttons[1]]
+#central
 set_property PACKAGE_PIN U6 [get_ports pushbuttons[2]]
 set_property IOSTANDARD SSTL15 [get_ports pushbuttons[2]]
+#east
 set_property PACKAGE_PIN U5 [get_ports pushbuttons[3]]
 set_property IOSTANDARD SSTL15 [get_ports pushbuttons[3]]
+#south
 set_property PACKAGE_PIN T5 [get_ports pushbuttons[4]]
 set_property IOSTANDARD SSTL15 [get_ports pushbuttons[4]]
 
